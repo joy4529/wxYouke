@@ -1,0 +1,4 @@
+  <view class="title">
+    <view class="zuopin">{{title}}</view>
+    <navigator open-type="switchTab" url="{{moreUrl}}">更多></navigator>
+  </view>

@@ -1,0 +1,102 @@
+
+
+.banner image{
+  width: 750rpx;
+  height: 1080rpx;
+  display: block;
+}
+.skllShow{
+  width: 100%;
+  height: 750rpx;
+  background-color: cornflowerblue;
+  padding-top: 50rpx;
+}
+.skllShow .nav{
+  width: 450rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-radius: 55rpx;
+  background-color: crimson;
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.skllShow .nav::after{
+  content: "";
+  display: block;
+  width: 480rpx;
+  height: 70rpx;
+  border: 2rpx dashed crimson;
+  border-radius: 70rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.skllShow .tupianZs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+}
+.skllShow .tupianZs .tupianZsNav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rpx 10rpx 0 10rpx;
+}
+.skllShow .tupianZsNav image{
+  width: 230rpx;
+  height: 230rpx;
+}
+.pingmian{
+  width: 100%;
+  height: 750rpx;
+  background-color: cornflowerblue;
+}
+.pingmian .nav{
+  width: 450rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-radius: 55rpx;
+  background-color: crimson;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.skllShow .nav::after{
+  content: "";
+  display: block;
+  width: 480rpx;
+  height: 70rpx;
+  border: 2rpx dashed crimson;
+  border-radius: 70rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.pingmian .detailShow{
+  margin-top: 20rpx;
+}
+.pingmian .detailShow image{
+  width: 750rpx;
+  height: 447rpx;
+}
+.pingmian .detailShow .wenzi{
+  color: white;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pingmian .detailShow .wenzi .li{
+  text-align: center;
+  width: 50%;
+  margin-top: 10rpx;
+}
+

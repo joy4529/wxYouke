@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/wkItem/wkItem",
+    "pages/hyItem/hyItem",
+    "pages/logs/logs",
+    "pages/ps/ps"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "游客学院",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "selectedColor":"#31c6ff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-h.png"
+      },{
+        "pagePath":"pages/hyItem/hyItem",
+        "text":"行业",
+        "iconPath":"images/user.png",
+        "selectedIconPath":"images/user-h.png"
+      },{
+        "pagePath":"pages/wkItem/wkItem",
+        "text":"作品",
+        "iconPath":"images/list.png",
+        "selectedIconPath":"images/list-h.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

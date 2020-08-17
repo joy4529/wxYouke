@@ -1,0 +1,19 @@
+<!-- <import src="../../wxParse/wxParse.wxml" /> -->
+<headerView></headerView>
+<view class="contain-top" >
+  <view class="title">{{dataArray.title}}</view>
+  <view class="top-in">
+  <view class="time">时间:{{dataArray.posttime}}</view>
+  <view class="author">作者:{{dataArray.author}}</view>
+  </view>
+</view>
+<view class="contain-bottom">
+  <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+  <!-- <rich-text nodes="{{nodes}}"></rich-text> -->
+  <!-- <view>{{dataArray.content}}</view> -->
+  <parser html="{{html}}" />
+</view>
+
+
+
+<footerView></footerView>

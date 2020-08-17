@@ -1,0 +1,12 @@
+<view class="hyItem">
+  <block wx:for="{{listArray}}" wx:key="*this">
+    <itemView item="{{item}}"></itemView>
+  </block>
+</view>
+
+<view>
+  <button loading="{{show}}" class="btn">
+    <text wx:if="{{show}}">刷新页面中</text>
+    <text wx:else>没有可刷新的页面</text>
+  </button>
+</view>

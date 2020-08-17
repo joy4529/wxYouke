@@ -1,0 +1,18 @@
+<view class="titleOut">
+<scroll-view  scroll-x scroll-left="{{scrollLength}}" scroll-with-animation="true">
+  <view class="{{index == idx ? 'titleIn' : ''}}" bindtap="clickTitle" data-cid="{{item.id}}" data-index="{{index}}" wx:for="{{titleArray}}" wx:key="*this">{{item.classname}}</view>
+</scroll-view>
+</view>
+
+<view class="wkMain">
+  <block wx:for="{{wkArray}}" wx:key="*this">
+    <wkItem class="content" datas="{{item}}" wkItem="/pages/detail/detail?id={{item.id}}"></wkItem>
+  </block>
+</view>
+
+<view>
+  <button loading="{{show}}" class="btn">
+    <text wx:if="{{show}}">数据加载中</text>
+    <text wx:else>没有更多数据</text>
+  </button>
+</view>

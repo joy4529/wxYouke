@@ -1,0 +1,6 @@
+<view class="top">
+  <image class="logo" src="../../images/logo.png"></image>
+  <navigator calss="xiaoxi"> 
+    <image class="xiaoxi" src="../../images/xiaoxi.png"></image>
+  </navigator> 
+</view>

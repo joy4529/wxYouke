@@ -1,0 +1,41 @@
+.titleOut{
+  white-space: nowrap;
+  height: 70rpx;
+  line-height: 70rpx;
+  box-shadow: 0 10rpx 10rpx rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 99;
+  margin-bottom: 10rpx;
+}
+
+.titleOut view{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  position: relative;
+}
+.titleOut .titleIn::after{
+  content: "";
+  width: 50rpx;
+  height: 4rpx;
+  background-color: sandybrown;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.wkMain{
+  padding: 10rpx;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn{
+  font-size: 25rpx;
+}
+.btn::after{
+  border: none;
+}

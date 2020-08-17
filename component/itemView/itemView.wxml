@@ -1,0 +1,10 @@
+<navigator class="container-in" url="../../pages/detail/detail?id={{item.id}}" data-id="{{item.id}}">
+
+    <view>
+        <image class="img" src="{{item.picurl}}"></image>
+    </view>
+    <view class="text">
+        <view>{{item.title}}</view>
+        <view class="bottom">作者：{{item.author}}-时间：{{item.posttime}}</view>
+    </view>
+</navigator>

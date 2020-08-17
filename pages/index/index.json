@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "headerView":"/component/headerView/headerView",
+    "footerView":"/component/footerView/footerView",
+    "dynamicList":"/component/dynamicList/dynamicList",
+    "itemView":"/component/itemView/itemView"
+  }
+}

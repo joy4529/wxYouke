@@ -1,0 +1,32 @@
+.wkConten{
+  background-color: white;
+  width: 360rpx;
+  height: 400rpx;
+  margin-bottom: 20rpx;
+}
+.wkConten image{
+  width: 360rpx;
+  height: 240rpx;
+}
+.wkConten .bottom{
+  width: 360rpx;
+  height: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:0 10rpx 10rpx 10rpx;
+  box-sizing: border-box;
+}
+.wkConten .bottom .title{
+  font-size: 25rpx;
+}
+.wkConten .bottom .text{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-size: 25rpx;
+}
+.wkConten .bottom .text .right image{
+  width: 25rpx;
+  height: 25rpx;
+}

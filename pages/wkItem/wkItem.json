@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wkItem":"/component/wkItem/wkItem"
+  }
+}

@@ -1,0 +1,56 @@
+<headerView></headerView>
+
+<view class="banner">
+  <image src="../../images/psbanner.jpg"></image>
+</view>
+
+<view class="skllShow">
+  <view class="nav">
+    <text>专业软件技能</text>
+  </view>
+  <view class="tupianZs">
+    <view class="tupianZsNav">
+      <image src="../../images/ruanjian(1).png"></image>
+      <text>ps软件</text>
+    </view>
+    <view class="tupianZsNav">
+      <image src="../../images/ruanjian(2).png"></image>
+      <text>ps软件</text>
+    </view>
+    <view class="tupianZsNav">
+      <image src="../../images/ruanjian(3).png"></image>
+      <text>ps软件</text>
+    </view>
+    <view class="tupianZsNav">
+      <image src="../../images/ruanjian(4).png"></image>
+      <text>ps软件</text>
+    </view>
+    <view class="tupianZsNav">
+      <image src="../../images/ruanjian(5).png"></image>
+      <text>ps软件</text>
+    </view>
+  </view>
+</view>
+
+<view class="pingmian">
+  <view class="nav">
+    <text>平面视觉设计</text>
+  </view>
+  <view class="detailShow">
+    <image src="../../images/psmajor02.jpg2.jpg"></image>
+    <view class="wenzi">
+      
+      <text class="li">人物精修</text>
+      <text class="li">商业广告片调色</text>
+      <text class="li">商业海报视觉精修</text>
+      <text class="li">卡通人物制作</text>
+      <text class="li">2.5D插画制作</text>
+      <text class="li">平面广告创意</text>
+      <text class="li">3D文字视觉设计</text>
+      <text class="li">合成特效制作</text>
+    </view>
+  </view>
+</view>
+
+
+<footerView></footerView>

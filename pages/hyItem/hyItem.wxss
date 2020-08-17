@@ -1,0 +1,9 @@
+.hyItem{
+  padding: 30rpx;
+}
+.btn{
+  font-size: 25rpx;
+}
+.btn::after{
+  border: none;
+}

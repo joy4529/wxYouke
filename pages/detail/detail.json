@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "headerView":"/component/headerView/headerView",
+    "footerView":"/component/footerView/footerView",
+    "parser":"/parser/parser"
+  }
+}

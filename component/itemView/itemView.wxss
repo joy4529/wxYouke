@@ -1,0 +1,22 @@
+.container-in{
+  font-size: 30rpx;
+  display: flex;
+  margin-bottom: 20rpx;
+  border-bottom: 1px dashed black ;
+}
+
+.container-in .img{
+  width: 320rpx;
+  height: 240rpx;
+  margin: 0 10rpx 10rpx 10rpx;
+}
+.container-in .text{
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-in .text .bottom{
+  font-size: 20rpx;
+  margin-bottom: 10rpx;
+}

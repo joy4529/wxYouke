@@ -1,0 +1,131 @@
+<headerView></headerView>
+
+<view class="subject">
+  <swiper class="slideBox" indicator-dots="true" indicator-active-color="#ccc" circular>
+    <swiper-item>
+      <image src="../../images/banner1.jpg"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src="../../images/banner2.jpg"></image>
+    </swiper-item>
+
+    <swiper-item>
+      <image src="../../images/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="sliderBox">
+  <scroll-view class="boxOut" scroll-x>
+ 
+    <view class="box">
+     <navigator url="/pages/ps/ps">
+      <image src='../../images/kecheng1.png'></image>
+      <view>平面设计</view>
+      </navigator> 
+    </view>
+
+    <view class="box">
+     <navigator url="../../pages/logs/logs.js">
+      <image src='../../images/kecheng2.png'></image>
+      <view>室内设计</view>
+      </navigator>
+    </view>
+
+    <view class="box">
+     <navigator url="../../pages/logs/logs.js">
+      <image src='../../images/kecheng3.png'></image>
+      <view>UI设计</view>
+      </navigator>
+    </view>
+
+    <view class="box">
+     <navigator url="../../pages/logs/logs.js">
+      <image src='../../images/kecheng4.png'></image>
+      <view>web前端</view>
+      </navigator>
+    </view>
+
+    <view class="box">
+     <navigator url="../../pages/logs/logs.js">
+      <image src='../../images/kecheng5.png'></image>
+      <view>影视后期</view>
+      </navigator>
+    </view>
+
+    <view class="box">
+     <navigator url="../../pages/logs/logs.js">
+      <image src='../../images/kecheng6.png'></image>
+      <view>制作商务</view>
+      </navigator>
+    </view>
+
+  </scroll-view>
+</view>
+
+<view class="works">
+<dynamicList title="作品展示" moreUrl="/pages/wkItem/wkItem?cid=17"></dynamicList>
+<view class="nav-in">
+  <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=20&idx=3">
+    <image src="../../images/xszp1.jpg"></image>
+    <view class="nav">
+      <view>UI设计作品</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+
+  <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=21&idx=4">
+    <image src="../../images/xszp2.jpg"></image>
+    <view class="nav">
+      <view>电商设计</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+
+    <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=18&idx=1">
+    <image src="../../images/xszp3.jpg"></image>
+    <view class="nav">
+      <view>平面设计</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+
+    <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=19&idx=2">
+    <image src="../../images/xszp4.jpg"></image>
+    <view class="nav">
+      <view >室内设计</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+
+    <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=22&idx=5">
+    <image src="../../images/xszp5.jpg"></image>
+    <view class="nav">
+      <view >影视后期</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+
+    <navigator open-type="reLaunch" url="../wkItem/wkItem?cid=23&idx=6">
+    <image src="../../images/xszp7.jpg"></image>
+    <view class="nav">
+      <view >web前端</view>
+      <view>film and television</view>
+    </view>
+  </navigator>
+</view>
+
+</view>
+
+
+<view class="works2">
+<dynamicList title="项目展示" moreUrl="/pages/hyItem/hyItem"></dynamicList>
+
+  <view class="container" wx:for="{{listArray}}" wx:key="*this">
+    <itemView item="{{item}}" ></itemView>
+  </view>
+</view>
+
+
+<footerView></footerView>

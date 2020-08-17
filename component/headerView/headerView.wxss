@@ -1,0 +1,29 @@
+.top{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.top .logo{
+  width: 245rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+}
+.top .xiaoxi{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+  animation:weChat 1s infinite alternate;
+}
+
+@keyframes weChat{
+  0% , 50% , 100%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+}

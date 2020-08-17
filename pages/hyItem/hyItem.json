@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "itemView":"/component/itemView/itemView"
+  },
+  "backgroundTextStyle":"dark",
+  "enablePullDownRefresh":true
+}
